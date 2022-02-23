@@ -21,6 +21,6 @@ second_mortage = second_mortage + estimated_work
 total_appartment_cost = inital_appartment_cost + estimated_work
 second_mortage = total_appartment_cost - first_mortage
 
-print(f'Your initial appartment costs : {inital_appartment_cost} and your founds are calculated on {initial_appartment_founds}')
-print(f'Your want {estimated_work} CHF, making the total costs of and your founds are calculated on {total_appartment_cost}')
-print(f'Your first mortage of {first_mortage_rate}) will cost you {first_mortage_rate*first_mortage}')
+print(f'Your initial appartment costs : {inital_appartment_cost} and your founds are calculated on {initial_appartment_founds} CHF')
+print(f'Your want {estimated_work} CHF, making the total costs of and your founds are calculated on {total_appartment_cost} CHF')
+print(f'Your first mortage of {100*first_mortage_rate}) % will cost you {first_mortage_rate*first_mortage} CHF per year')
